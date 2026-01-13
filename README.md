@@ -1,5 +1,5 @@
 Wymagania systemowe:
--Środowisko Node.js w wersji 18 lub nowszej
+-.NET SDK w wersji 8.0.x (Nie wyższej)
 -Dostęp do bazy danych SQL
 -Przeglądarka internetowa (Chrome, Firefox, Edge)
 
@@ -11,7 +11,7 @@ Instalacja:
 -SQL Server wykona wszystkie instrukcje po kolei: stworzy tabele i uzupełni je danymi. Po odświeżeniu listy baz danych po lewej stronie,  baza powinna być gotowa do użycia
 -Pobierz pliki projektu na swój dysk lub sklonuj repozytorium
 -Uruchom bazę danych i wykonaj migracje, jeśli są wymagane
--Zmień bazę danych w pliku appsettings.json w linijce:  "DefaultConnection": "Server=DESKTOP-KQCRTQF\\SQLEXPRESS;Database=HotelReservationDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" z "DESKTOP-KQCRTQF\\SQLEXPRESS" na twoją, której używasz
+-Zmień bazę danych w pliku appsettings.json w folderze Proj_bazy w linijce:  "DefaultConnection": "Server=DESKTOP-KQCRTQF\\SQLEXPRESS;Database=HotelReservationDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" z "DESKTOP-KQCRTQF\\SQLEXPRESS" na twoją, której używasz
 -Otwórz folder projektu w terminalu
 -Wpisz dotnet run
 
