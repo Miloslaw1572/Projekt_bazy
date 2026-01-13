@@ -8,7 +8,7 @@ namespace Proj_bazy.Models
         [Required]
         public string Number { get; set; }
         public int RoomTypeId { get; set; }
-        public RoomType RoomType { get; set; }
-        public ICollection<Reservation> Reservations { get; set; }
+        public virtual RoomType? RoomType { get; set; }
+        public virtual ICollection<Reservation>? Reservations { get; set; }
     }
 }

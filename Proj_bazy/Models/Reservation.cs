@@ -10,8 +10,8 @@ namespace Proj_bazy.Models
         [Required]
         public DateTime EndDate { get; set; }
         public int HotelRoomId { get; set; }
-        public HotelRoom HotelRoom { get; set; }
-        public int UserId { get; set; }
-        public User User { get; set; }
+        public virtual HotelRoom? HotelRoom { get; set; }
+        public string? UserId { get; set; }
+        public virtual ApplicationUser? User { get; set; }
     }
 }

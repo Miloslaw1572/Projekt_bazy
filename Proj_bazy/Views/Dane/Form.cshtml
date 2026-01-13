@@ -1,0 +1,13 @@
+﻿@model Proj_bazy.Models.Dane
+<form asp-action="Form" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div>
+        <label asp-for="Imie">Twoje imie</label>
+        <input asp-for="Imie" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Email">Twoj Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <input type="submit" value="Prześlij" class="btn btn-primary" />
+</form>
