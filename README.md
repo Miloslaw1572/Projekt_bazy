@@ -11,7 +11,7 @@ Instalacja:
 -SQL Server wykona wszystkie instrukcje po kolei: stworzy tabele i uzupełni je danymi. Po odświeżeniu listy baz danych po lewej stronie,  baza powinna być gotowa do użycia
 -Pobierz pliki projektu na swój dysk lub sklonuj repozytorium
 -Uruchom bazę danych i wykonaj migracje, jeśli są wymagane
--Zmień bazę danych w pliku appsettings.json w folderze Proj_bazy w linijce:  "DefaultConnection": "Server=DESKTOP-KQCRTQF\\SQLEXPRESS;Database=HotelReservationDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" z "DESKTOP-KQCRTQF\\SQLEXPRESS" na twoją, której używasz (Upewnij się że po nazwie urządzenia np. DESKTOP-XXXX jest \\ a nie \)
+-Zmień bazę danych w pliku appsettings.json w folderze Proj_bazy w linijce:  "DefaultConnection": "Server=DESKTOP-KQCRTQF\\SQLEXPRESS;Database=HotelReservationDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" z "DESKTOP-KQCRTQF\\SQLEXPRESS" na twoją, której używasz, najlepiej wpisz localhost\\(Nazwa bazy np. SQLEXPRESS)
 -Otwórz folder projektu w terminalu
 -Wpisz dotnet run
 -W przeglądarce wpisz adres który ukazał się w konsoli, przykładowy adres to http://localhost:5291, u ciebie będzie pewnie http://localhost://xxxx
