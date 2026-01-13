@@ -8,6 +8,7 @@ Instalacja:
 -Otwórz SQL Server Management Studio
 -Z górnego menu wybierz File, potem Open i File, a następnie wskaż pobrany plik bazadanych.sql
 -Gdy skrypt otworzy się w oknie edytora, upewnij się, że jesteś połączony z właściwym serwerem i kliknij przycisk Połącz
+-Wciśnij Wykonaj u góry ekranu
 -SQL Server wykona wszystkie instrukcje po kolei: stworzy tabele i uzupełni je danymi. Po odświeżeniu listy baz danych po lewej stronie,  baza powinna być gotowa do użycia
 -Pobierz pliki projektu na swój dysk lub sklonuj repozytorium
 -Uruchom bazę danych i wykonaj migracje, jeśli są wymagane
