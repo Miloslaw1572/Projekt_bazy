@@ -14,6 +14,7 @@ Instalacja:
 -Zmień bazę danych w pliku appsettings.json w folderze Proj_bazy w linijce:  "DefaultConnection": "Server=DESKTOP-KQCRTQF\\SQLEXPRESS;Database=HotelReservationDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;" z "DESKTOP-KQCRTQF\\SQLEXPRESS" na twoją, której używasz (Upewnij się że po nazwie urządzenia np. DESKTOP-XXXX jest \\ a nie \)
 -Otwórz folder projektu w terminalu
 -Wpisz dotnet run
+-W przeglądarce wpisz adres który ukazał się w konsoli, przykładowy adres to http://localhost:5291, u ciebie będzie pewnie http://localhost://xxxx
 
 
 Testowi użytkownicy:
